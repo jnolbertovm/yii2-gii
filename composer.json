@@ -1,0 +1,30 @@
+{
+    "name": "nolbertovilchez/yii2-gii",
+    "description": "Plantilla para Gii",
+    "keywords": ["nolbertovilchez", "yii2", "gii", "code generator"],
+    "type": "library",
+    "license": "LGPL",
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "José Nolberto Vilchez Moreno",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nolbertovilchez\\yii2\\gii\\": ""
+        }
+    },
+    "extra":{
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
